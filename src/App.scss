@@ -1,0 +1,136 @@
+$mainBackground: #f0f3f8;
+$primaryColor: #2b2f3f;
+$secondaryColor: #6461a1;
+$headerColor: #4c5265;
+$footerColor: #343a40;
+$footerEmail:#212529;
+//$headerFont: 'Monoton', cursive;
+//$headerFont: 'Russo One', cursive;
+//$headerFont: 'Sigmar One', cursive;
+$headerFont: 'Paytone One', cursive;
+
+
+body{
+    background-color: $mainBackground;
+}
+
+
+.main-header{
+    background-color: $primaryColor;  
+        h1{
+            font-family: $headerFont;
+        }
+        p{
+            color: gray;
+            margin-bottom: 0;
+        } 
+        .language-location{
+          font-size: 35px;
+          color: gray;
+          padding-left: 30px;
+        }
+        span{
+          color:white;
+          font-weight: 400;
+          font-size: 25px;
+        }
+        margin: 0;
+        padding: 20px;
+        color: white;
+}
+
+.sub-header{
+  border-top: 2px solid $headerColor;
+  background-color: $primaryColor;  
+}
+
+.nav-link{
+    font-size:large;
+    font-weight: 200;
+    padding-right: 15px !important;
+}
+
+
+
+.sub-footer{
+  background-color: $footerColor;
+
+  .footerList{
+      padding-bottom: 10px;
+      border-bottom: gray 1px dotted;
+  }
+  a{
+      color:lightgrey;
+  }
+  a:hover{
+      color:gray;
+      text-decoration: none;
+  }
+
+  .socialLinks{
+      color: grey;
+  }
+  .socialLinks:hover{
+      color:lightgray;
+  }
+  p{
+      color: lavender;
+  }
+}
+
+
+
+.main-footer{
+  background-color: $footerEmail;
+  span{
+      color: gray;
+      font-size: small;
+      font-style: italic;
+
+  }
+}
+
+
+
+.row-1{
+  margin-top:  3rem;
+  margin-bottom:  5rem;
+  .card{
+      border-radius: 15px;
+      background-color: white;
+      border: 2px solid $headerColor;
+  }
+}
+
+
+
+
+
+.title-small-sc{
+  display: none;
+}
+
+@media only screen and (max-width: 992px) and (min-width: 320px){
+  .navbar{
+    display: contents;
+  }
+  .navbar-collapse{
+    background-color: #1f212d;
+    border-radius: 10px;
+    padding: 5px;
+    margin:5px;
+  }
+  .sub-header{
+    padding:10px 10px 10px 20px;
+  }
+  .title-small-sc{
+    color: gray;
+    display: inline;
+  }
+}
+
+@media only screen and (max-width: 320px){
+  .hide-in-small{
+    display: none;
+  }
+}

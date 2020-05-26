@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'typeface-monoton';
+import 'typeface-russo-one';
+import 'typeface-sigmar-one';
+import 'typeface-paytone-one';
+import App from './App';
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+import { faHome, faSeedling, faLifeRing, faSignInAlt, faLanguage, faFileAlt, faCoffee, faMoneyBillWave, faEllipsisV, faMapMarkerAlt, faStreetView, faGlobe, faUserCircle, faChevronCircleRight, faPaperPlane} from '@fortawesome/free-solid-svg-icons/'
+library.add(fab, faHome, faSeedling, faLifeRing, faSignInAlt, faLanguage, faFileAlt, faCoffee, faMoneyBillWave, faEllipsisV, faMapMarkerAlt, faStreetView, faGlobe, faUserCircle, faChevronCircleRight, faPaperPlane)
+
+
+
 
 ReactDOM.render(
   <React.StrictMode>
