@@ -46,7 +46,11 @@ function Home(props){
                     </div>
                 </div>   
             </div>  
-            
+            <div className="row-1">
+                <div className="container">
+                    test
+                </div>
+            </div>    
         </React.Fragment>
     );
 }

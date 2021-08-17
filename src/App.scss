@@ -40,7 +40,7 @@ body{
 }
 
 .sub-header{
-  border-top: 2px solid $headerColor;
+  border-top: 1px dotted $headerColor;
   background-color: $primaryColor;  
 }
 
@@ -98,7 +98,6 @@ body{
   .card{
       border-radius: 15px;
       background-color: white;
-      border: 2px solid $headerColor;
   }
 }
 

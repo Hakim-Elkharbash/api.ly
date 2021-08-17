@@ -63,7 +63,7 @@ class SubHeader extends React.Component{
                             </Navbar>   
                         </div>                   
                         <div className="col-2 d-flex flex-row-reverse align-items-center">
-                            <FontAwesomeIcon icon="user-circle" size="3x" color="gray"  />
+                            <FontAwesomeIcon icon="user-circle" size="3x" color="gray" />
                         </div>
                     </div>
                 </div>
