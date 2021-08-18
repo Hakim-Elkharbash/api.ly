@@ -9,7 +9,7 @@ function Home(props){
                 <div className="container">
                     <div className="row">
                         <div className="col">
-                        <h1 className="text-center text-secondary font-weight-bold">Key Features</h1>
+                        <h1 className="text-center text-secondary font-weight-bold">Key Feature</h1>
                         </div>
                     </div>
                     <div className="row mt-5">
